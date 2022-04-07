@@ -4,4 +4,13 @@ public class EditorFactory {
     public Editor getEditor() {
         return new ConsoleEditor();
     }
+
+    public Editor getEditorJson() {
+        return new ConsoleEditorJson();
+    }
+
+
 }
+
+
+
